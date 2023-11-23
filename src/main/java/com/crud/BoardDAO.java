@@ -85,7 +85,7 @@ public class BoardDAO {
 				one.setTitle(rs.getString("title"));
 				one.setWriter(rs.getString("writer"));
 				one.setContent(rs.getString("content"));
-				one.setContent(rs.getString("age"));
+				one.setAge(rs.getString("age"));
 				one.setCnt(rs.getInt("cnt"));
 			}
 			rs.close();
